@@ -1,0 +1,10 @@
+C:\Users\marim\OneDrive\Рабочий стол\Customer.DB\Customer.DB\bin\Debug\Customer.DB.dacpac
+C:\Users\marim\OneDrive\Рабочий стол\Customer.DB\Customer.DB\bin\Debug\Customer.DB.dll
+C:\Users\marim\OneDrive\Рабочий стол\Customer.DB\Customer.DB\bin\Debug\Customer.DB.pdb
+C:\Users\marim\OneDrive\Рабочий стол\Customer.DB\Customer.DB\obj\Debug\Customer.DB.sqlproj.AssemblyReference.cache
+C:\Users\marim\OneDrive\Рабочий стол\Customer.DB\Customer.DB\obj\Debug\Customer.DB.dll
+C:\Users\marim\OneDrive\Рабочий стол\Customer.DB\Customer.DB\obj\Debug\Customer.DB.pdb
+C:\Users\marim\OneDrive\Рабочий стол\Customer.DB\Customer.DB\obj\Debug\Model.xml
+C:\Users\marim\OneDrive\Рабочий стол\Customer.DB\Customer.DB\obj\Debug\refactor.xml
+C:\Users\marim\OneDrive\Рабочий стол\Customer.DB\Customer.DB\obj\Debug\postdeploy.sql
+C:\Users\marim\OneDrive\Рабочий стол\Customer.DB\Customer.DB\obj\Debug\predeploy.sql
