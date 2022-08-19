@@ -61,6 +61,6 @@
     <PreDeploy Include="create.sql" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="data.sql" />
+    <None Include="data.sql" />
   </ItemGroup>
 </Project>

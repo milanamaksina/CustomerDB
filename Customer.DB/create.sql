@@ -1,5 +1,5 @@
-﻿--CREATE DATABASE [CustomerLib_Maksina.db]
---GO
+﻿CREATE DATABASE [CustomerLib_Maksina.db]
+GO
 
 USE [CustomerLib_Maksina.db]
 GO
