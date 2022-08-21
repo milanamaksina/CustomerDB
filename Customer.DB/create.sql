@@ -1,8 +1,7 @@
-﻿CREATE DATABASE [CustomerLib_Maksina.db]
-GO
+﻿--CREATE DATABASE [CustomerLib_Maksina.db]
+--GO
 
 USE [CustomerLib_Maksina.db]
-GO
 
 CREATE TABLE [Customers]
 (
@@ -12,11 +11,11 @@ CREATE TABLE [Customers]
 	PhoneNumber NVARCHAR(20) NULL CHECK
 	(PhoneNumber LIKE '+[1-9]' + REPLICATE('[0-9]', 14) OR PhoneNumber LIKE '[1-9]' + REPLICATE('[0-9]', 14)),
 	Email NVARCHAR(50) NULL CHECK (Email LIKE '%[a-zA-Z0-9][@][a-zA-Z0-9]%[.][a-zA-Z0-9]%'),
-	Notes NVARCHAR(MAX) NOT NULL,
 	TotalPurchasesAmount MONEY NULL CHECK(TotalPurchasesAmount >= 0)
 )
+GO
 
-CREATE TABLE Addresses
+CREATE TABLE [Addresses]
 (
 	AddressId INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
 	CustomerId INT NOT NULL FOREIGN KEY REFERENCES Customers(CustomerId),
@@ -29,3 +28,9 @@ CREATE TABLE Addresses
 	Country NVARCHAR(14) NOT NULL CHECK (Country IN ('United States', 'Canada', 'united States', 'canada'))
 )
 GO
+
+CREATE TABLE [Notes] (
+NoteId INT IDENTITY NOT Null Primary Key,
+CustomerId INT NOT Null Foreign Key REFERENCES Customers (CustomerId),
+Note NVARCHAR(255) NOT Null CHECK (Note != '')
+)
